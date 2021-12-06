@@ -1,0 +1,23 @@
+Aplikacija koja ima dve tabele(igracke i kontakt).
+CRUD (Create, Read, Update, Delete) funkcionalnosti za tabelu igraèke. 
+Kontakt forma za unos kontakata. 
+Na pocetnoj(naslovnoj) strani (index.php) nalazi se opis opis prodavnice. 
+Klikom na stavku Igracke iz menija otvara se stranica sa prikazom svih igracaka iz prodavnice. Pored pregleda naziva, kategorije (za decake ili za devojcice), slike, opisa i cene moguce je izmeniti ili obrisati igraèku. Klikom na dugme izmeni otvara se nova stranica sa formom ispunjenom podacima o proizvodu(igracki) sa moguænošæu da se ti podaci promene (svi osim slike). Klikom na dugme "Izmeni igracku" cuvaju se izmenjeni podaci.
+Postoji mogucnost dodavanja igracaka. Kao i za dodavanje kontakata.
+Koriscene su tehnologije: PHP, MySQL, JavaScript, AJAX, jQuery, Bootstrap.
+Igracke mogu da se sortiraju po ceni(rastuce ili opadajuce) i/ili po kategoriji(za decake, za devojcice).
+Dodavanjem, izmenom ili brisanjem stavki iz tabela osvezavaju se komponente koriscenjem AJAX-a, bez osvezavanja cele stranice.
+
+Struktura projekta:
+- images	-> dodate slike za igraèke
+-- css 		-> css stilovi aplikacije
+-- js 		-> javascript fajlovi aplikacije
+--img		-> korišcene slike
+
+AJAX-a
+- klase 	-> modeli objekata sa svojim atributima i funkcijama
+--konekcija.php -> logika za povezivanje sa bazom podataka
+--index.php 	-> pocetak aplikacije u koji se ucitavaju komponente
+--igracke.php -> strana za rad sa igrackama
+--dodaj.php -> strana sa formom za dodavanje nove igracke
+--izmeniIgracku.php 	-> strana sa formom na kojoj je moguæe izmeniti igracku i sacuvati promene

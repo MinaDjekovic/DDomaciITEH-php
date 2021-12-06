@@ -1,0 +1,206 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+}
+.header{
+background-image: url('img/toy.jpg');
+background-size:cover;
+height: 100vh;
+background-position:center;
+border-bottom:2px solid #ac1a14; 
+}
+.header1{
+    /* background-size:cover; */
+    height: 100vh;
+    background-position:center;
+    border-bottom:2px solid #ac1a14; 
+}
+h1{
+padding-top: 40px;
+text-align: center;
+color: white;
+font-family:sans-serif;
+font-size: 44pt; 
+text-shadow: 5px 2px #bc0404;
+width: 300px;
+float: left;
+margin-left: 10%;
+}
+.meni{
+width: 100%;
+}
+.meni1{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+
+}
+#navigacija{
+float: left;
+word-spacing: 14pt;
+padding-bottom: 50px;
+padding-top: 60px;
+margin-left: 0px;    
+}
+#navigacija1{
+    /* float:left; */
+    word-spacing: 14pt;
+    padding-bottom: 50px;
+    padding-top: 60px;
+    /* background-color: #bc0404; */
+    margin-left: 40%;    
+    }
+#navigacija2{
+        /* float:left; */
+        word-spacing: 14pt;
+        padding-bottom: 50px;
+        padding-top: 60px;
+        text-align: center;
+        /* background-color: #bc0404; */
+        margin-left: 50%;    
+ }
+#kartice{
+display: inline;
+font-family:sans-serif;
+font-size: 18pt; 
+text-decoration: underline;
+}
+#kartice1{
+    /* display: inline; */
+    font-family:sans-serif;
+    font-size: 18pt; 
+    text-decoration: underline;
+    }
+#kartice a{
+color:white;
+text-shadow: 2px 2px #bc0404;
+text-decoration: none;
+transition: color 0.2s;
+}
+#kartice a:hover{
+color: #bc5a2f;
+}
+body{
+background-image: url('img/body_image2.jpg');
+}
+.opis{
+background-color: white;
+width:60%;
+margin-left: 20%;
+font-size: 14pt;
+line-height: 25pt;
+word-spacing: 3pt;
+padding: 40px;
+border-left: 7px dotted #ac1a14;
+border-right: 7px dotted #ac1a14;
+text-align: justify;
+}
+#prva {
+width:100px;
+height: 100px;
+margin-left: 30px;
+}
+#druga{
+width: 90px;
+height: 100px;
+margin-left: 95px;
+}
+#treca{
+width: 140px;
+height: 100px;
+margin-left: 130px;
+}
+#footer{
+background-color: beige;
+border-top: 2px solid #ac1a14;
+}
+#footer-text{
+padding-top: 10px;
+padding-left: 20px;
+font-size: 14pt;
+line-height: 30px;
+color:#190505;
+}
+#logo{
+display: flex;
+align-self: center;
+padding-left: 160px;
+padding-top:20px;
+}
+#copy{
+padding-left: 80px;
+padding-top: 5px;
+font-size: 14pt;
+display: flex;
+align-self: center;
+}
+.logocopy{
+padding-top: 50px;
+padding-left: 45px;
+}
+.footer-ikone{
+float: right;
+padding-top: 85px;
+padding-right: 20px;
+}
+#ikona{
+opacity: 1.0;
+}
+#ikona:hover{
+opacity: 0.6;
+}
+.igracke{
+width:80%;
+margin-left: 10%;
+background-color: white;
+border-left: 7px dotted #ac1a14;
+border-right: 7px dotted #ac1a14;
+}
+#igracke{
+   margin-left: 2%;
+    margin-right: 5%;
+ 
+    
+}
+#kategorija{
+font-family: sans-serif;
+font-size: 12pt;
+color:#ac1a14;
+width:180px;
+height: 30px;
+background-color: #fa9d74;
+border: #ac1a14 solid;
+border-radius: 12px;
+margin-left: 30px;
+margin-top: 25px;
+}
+#cena{
+font-family: sans-serif;
+font-size: 12pt;
+color:#ac1a14;
+width:180px;
+height: 30px;
+background-color: #fa9d74;
+border: #ac1a14 solid;
+border-radius: 12px;
+float:right;
+margin-right: 30px;
+margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
