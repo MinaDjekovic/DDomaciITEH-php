@@ -1,4 +1,4 @@
-function igrackeAjax() {
+function igrackeAjaxx() {
     var sortiraj = $("#cena").val();
     var kategorijesel = $("#kategorija").val();
 
@@ -14,7 +14,7 @@ function igrackeAjax() {
 
 
 }
-function izmeniIgracku(id) {
+function izmeniIgrackuu(id) {
     $(".igracke").html("");
     $.post("izmeniIgracku.php", { id: id }, function (data) {
         $(".igracke").html(data);
@@ -26,7 +26,7 @@ function izmeniIgracku(id) {
 
 
 }
-function izbrisiIgracku(id) {
+function izbrisiIgrackuu(id) {
     $(".igracke").html("");
 
     $.post("izbrisiIgracke.php", { id: id }, function (data) {
